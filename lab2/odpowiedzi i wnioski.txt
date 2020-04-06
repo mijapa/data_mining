@@ -10,10 +10,16 @@ Ad 5.2 Które cechy są najbardziej skorelowane z etykietą przeżycia? Które c
 Najbardziej skorelowane z etykietą przeżycia są: Title oraz Pclass
 Najbardziej skorelowane ze sobą są: Sex i Title oraz Parch i FamilySize
 
+Ad 5.11 Wyznacz następujące miary jakości zbudowanego klasyfikatora:
+— accuracy	0.8161434977578476
+— f1-score	0.7421383647798742
+— average precision-recall	0.670003203074952
+
 Wnioski
     • drzewa
 Głębokie drzewa tracą zdolność generalizacji.
 Zastosowanie innego kryterium (gini / entropy) zmienia kształt drzewa.
+Zbyt duża minimalna ilość próbek na liść może powodować underfitting.
     • k-NN
-Miara euklidesowa daje lepsze wyniki skuteczności niż taxi przy danych o małej ilości cech.
-Ilość sąsiadów należy dobierać eksperymentalnie.
+Miara euklidesowa daje lepsze wyniki skuteczności, niż taxi, przy danych o małej ilości cech.
+Ilość sąsiadów należy dobierać eksperymentalnie, zarówno zbyt mała jak i zbyt duża ich liczba prowadzi do pogorszenia wyników.
