@@ -1,0 +1,19 @@
+﻿Eksploracja danych
+laboratorium 2
+Klasyfikacja - drzewa decyzyjne, kNN
+
+Michał Patyk
+
+Pytania
+
+Ad 5.2 Które cechy są najbardziej skorelowane z etykietą przeżycia? Które cechy są najbardziej skorelowane ze sobą? 
+Najbardziej skorelowane z etykietą przeżycia są: Title oraz Pclass
+Najbardziej skorelowane ze sobą są: Sex i Title oraz Parch i FamilySize
+
+Wnioski
+    • drzewa
+Głębokie drzewa tracą zdolność generalizacji.
+Zastosowanie innego kryterium (gini / entropy) zmienia kształt drzewa.
+    • k-NN
+Miara euklidesowa daje lepsze wyniki skuteczności niż taxi przy danych o małej ilości cech.
+Ilość sąsiadów należy dobierać eksperymentalnie.
