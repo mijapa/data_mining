@@ -14,4 +14,10 @@ logarytmowane = log(T.USdollarEUR);
 figure('Name','Dane logarytmowane')
 plot(logarytmowane);
 
+potegowane2 = power(T.USdollarEUR, 2);
+figure('Name','Dane potegowane 2')
+plot(potegowane2);
 
+potegowane3 = power(T.USdollarEUR, 3);
+figure('Name','Dane potegowane 3')
+plot(potegowane3);
