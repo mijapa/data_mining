@@ -1,3 +1,5 @@
+%1.4 Aproksymacja szeregów
+
 n = 1;
 
 x=linspace(0,numel(T.USdollarEUR)-1,numel(T.USdollarEUR));

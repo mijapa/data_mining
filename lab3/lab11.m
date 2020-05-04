@@ -1,3 +1,5 @@
+%1.1 Analiza danych oraz pozyskanie dodatkowego syganłu diagnostycznego
+
 nr01 = normalize(T.USdollarEUR,'range');
 figure('Name','Dane znormalizowane 0-1')
 plot(nr01);

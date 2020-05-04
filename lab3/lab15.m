@@ -1,3 +1,5 @@
+%1.5 Podzielenie szeregu na k=10 podciągów
+
 n = 1;
 k = 10;
 

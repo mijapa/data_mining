@@ -1,3 +1,5 @@
+%1.2 Redukcja niestacjonarności z danych oryginalnych
+
 przywzg = przyrostwzg(T.USdollarEUR);
 figure('Name','Przyrost względny')
 plot(przywzg);
